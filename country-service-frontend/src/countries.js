@@ -5,7 +5,7 @@ class Countries extends React.Component {
     
     constructor(props) {
         super(props)
-        this.state = {value: '', data: ''};
+        this.state = {data: ''};
     }
 
     componentDidMount() {
